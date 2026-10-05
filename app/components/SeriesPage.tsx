@@ -18,24 +18,24 @@ const chillPremium: MediaItem[] = [
   { title: "The Little Mermaid", image: "/assets/img/img10.png", previewImage: "/assets/img/img10.png", badge: "premium", episodes: "8 Episode", genres: ["Fantasi", "Keluarga", "Drama"] },
   { title: "Duty After School", image: "/assets/img/img12.png", previewImage: "/assets/img/img12.png", badge: "premium", episodes: "10 Episode", genres: ["Aksi", "Drama", "Fiksi Ilmiah"] },
   { title: "Big Hero 6: The Series", image: "/assets/img/img1.png", previewImage: "/assets/img/img1.png", badge: "premium", episodes: "12 Episode", genres: ["Anak-anak", "Komedi", "Aksi"] },
-  { title: "All of Us Are Dead", image: "/assets/img/img2.png", previewImage: "/assets/img/frame4.png", badge: "premium", episodes: "16 Episode", genres: ["Misteri", "Kriminal", "Fantasi"] },
+  { title: "All of Us Are Dead", image: "/assets/img/img2.png", previewImage: "/assets/img/img2.png", badge: "premium", episodes: "16 Episode", genres: ["Misteri", "Kriminal", "Fantasi"] },
   { title: "Missing", image: "/assets/img/img11.png", previewImage: "/assets/img/img11.png", badge: "premium", episodes: "6 Episode", genres: ["Misteri", "Drama", "Kriminal"] },
 ];
 
 const topSeries: MediaItem[] = [
-  { title: "All of Us Are Dead", image: "/assets/img/img2.png", previewImage: "/assets/img/frame4.png", badge: "top", episodes: "16 Episode", genres: ["Misteri", "Kriminal", "Fantasi"] },
+  { title: "All of Us Are Dead", image: "/assets/img/img2.png", previewImage: "/assets/img/img2.png", badge: "top", episodes: "16 Episode", genres: ["Misteri", "Kriminal", "Fantasi"] },
   { title: "Duty After School", image: "/assets/img/img12.png", previewImage: "/assets/img/img12.png", badge: "top", episodes: "10 Episode", genres: ["Aksi", "Drama", "Fiksi Ilmiah"] },
-  { title: "Blue Lock", image: "/assets/img/img3.png", previewImage: "/assets/img/frame2.png", badge: "top", episodes: "24 Episode", genres: ["Anime", "Olahraga", "Drama"] },
-  { title: "My Perfect Stranger", image: "/assets/img/img4.png", previewImage: "/assets/img/frame3.png", badge: "top", episodes: "16 Episode", genres: ["Drama", "Misteri", "Romansa"] },
-  { title: "Alice in Borderland", image: "/assets/img/img5.png", previewImage: "/assets/img/frame1.png", badge: "top", episodes: "16 Episode", genres: ["Misteri", "Aksi", "Drama"] },
+  { title: "Blue Lock", image: "/assets/img/img3.png", previewImage: "/assets/img/img3.png", badge: "top", episodes: "24 Episode", genres: ["Anime", "Olahraga", "Drama"] },
+  { title: "My Perfect Stranger", image: "/assets/img/img4.png", previewImage: "/assets/img/img4.png", badge: "top", episodes: "16 Episode", genres: ["Drama", "Misteri", "Romansa"] },
+  { title: "Alice in Borderland", image: "/assets/img/img5.png", previewImage: "/assets/img/img5.png", badge: "top", episodes: "16 Episode", genres: ["Misteri", "Aksi", "Drama"] },
 ];
 
 const trendingSeries: MediaItem[] = [
   { title: "Duty After School", image: "/assets/img/img12.png", previewImage: "/assets/img/img12.png", badge: "top", episodes: "10 Episode", genres: ["Aksi", "Drama", "Fiksi Ilmiah"] },
-  { title: "All of Us Are Dead", image: "/assets/img/img2.png", previewImage: "/assets/img/frame4.png", badge: "top", episodes: "16 Episode", genres: ["Misteri", "Kriminal", "Fantasi"] },
-  { title: "Blue Lock", image: "/assets/img/img3.png", previewImage: "/assets/img/frame2.png", badge: "top", episodes: "24 Episode", genres: ["Anime", "Olahraga", "Drama"] },
-  { title: "Alice in Borderland", image: "/assets/img/img5.png", previewImage: "/assets/img/frame1.png", badge: "top", episodes: "16 Episode", genres: ["Misteri", "Aksi", "Drama"] },
-  { title: "My Perfect Stranger", image: "/assets/img/img4.png", previewImage: "/assets/img/frame3.png", badge: "top", episodes: "16 Episode", genres: ["Drama", "Misteri", "Romansa"] },
+  { title: "All of Us Are Dead", image: "/assets/img/img2.png", previewImage: "/assets/img/img2.png", badge: "top", episodes: "16 Episode", genres: ["Misteri", "Kriminal", "Fantasi"] },
+  { title: "Blue Lock", image: "/assets/img/img3.png", previewImage: "/assets/img/img3.png", badge: "top", episodes: "24 Episode", genres: ["Anime", "Olahraga", "Drama"] },
+  { title: "Alice in Borderland", image: "/assets/img/img5.png", previewImage: "/assets/img/img5.png", badge: "top", episodes: "16 Episode", genres: ["Misteri", "Aksi", "Drama"] },
+  { title: "My Perfect Stranger", image: "/assets/img/img4.png", previewImage: "/assets/img/img4.png", badge: "top", episodes: "16 Episode", genres: ["Drama", "Misteri", "Romansa"] },
 ];
 
 const newSeries: MediaItem[] = [

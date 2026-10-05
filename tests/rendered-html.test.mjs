@@ -180,6 +180,29 @@ test("Daftar Saya tersimpan lokal tanpa bergantung pada API Cloudflare", async (
   assert.doesNotMatch(myListHook, /fetch\(["'`]\/api\/my-list/);
 });
 
+test("popup poster portrait selalu memakai gambar dari kartu yang sama", async () => {
+  const [catalog, seriesPage] = await Promise.all([
+    source("app/components/MediaCatalog.tsx"),
+    source("app/components/SeriesPage.tsx"),
+  ]);
+
+  assert.match(
+    catalog,
+    /variant === "portrait"[\s\S]*?<Image src=\{item\.image\} alt=\{`Cuplikan \$\{item\.title\}`\}/,
+  );
+  assert.doesNotMatch(
+    catalog,
+    /variant === "portrait"[\s\S]*?<Image src=\{item\.previewImage \?\? item\.image\}/,
+  );
+
+  const portraitRows = seriesPage.slice(seriesPage.indexOf("const chillPremium"));
+  const mappings = [...portraitRows.matchAll(/image: "([^"]+)", previewImage: "([^"]+)"/g)];
+  assert.ok(mappings.length > 0);
+  for (const [, image, previewImage] of mappings) {
+    assert.equal(previewImage, image);
+  }
+});
+
 test("build produksi Next.js menghasilkan aplikasi dan aset client", async () => {
   await Promise.all([
     access(projectFile(".next/BUILD_ID")),

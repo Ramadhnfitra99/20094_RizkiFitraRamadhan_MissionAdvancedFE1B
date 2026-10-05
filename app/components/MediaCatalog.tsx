@@ -114,7 +114,7 @@ function MediaCard({
       {variant === "portrait" && (
         <div className="poster-preview" aria-hidden={!active}>
           <div className="poster-preview__visual">
-            <Image src={item.previewImage ?? item.image} alt="" width={560} height={260} />
+            <Image src={item.image} alt={`Cuplikan ${item.title}`} width={560} height={260} />
             <span className="poster-preview__gradient" />
           </div>
           <div className="poster-preview__body">
