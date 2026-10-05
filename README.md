@@ -2,6 +2,11 @@
 
 Aplikasi katalog film responsif berbasis React dan Next.js. Mission ini melanjutkan CRUD array pada mission sebelumnya menjadi CRUD dinamis melalui REST API.
 
+## Link project
+
+- Live demo: [chill-advanced-fe1b-rizki.vercel.app](https://chill-advanced-fe1b-rizki.vercel.app)
+- Repository: [20094_RizkiFitraRamadhan_MissionAdvancedFE1B](https://github.com/Ramadhnfitra99/20094_RizkiFitraRamadhan_MissionAdvancedFE1B)
+
 ## Fitur utama
 
 - `GET` koleksi film dari REST API.
@@ -106,6 +111,8 @@ File `.env.local` tidak masuk Git. File `.env.example` disertakan agar project m
    - Name: `NEXT_PUBLIC_MOVIE_API_URL`
    - Value: `https://api.restful-api.dev/objects`
 4. Deploy.
+
+Deployment project ini tersedia di [https://chill-advanced-fe1b-rizki.vercel.app](https://chill-advanced-fe1b-rizki.vercel.app).
 
 Tidak diperlukan build command khusus; Vercel akan menjalankan `next build` secara otomatis.
 
